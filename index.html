@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Pedro Ramos" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Pattern Task</title>
+	</head>
+	<body>
+		<main>
+			<h1>Pattern task</h1>
+
+			<section>
+				<h2>
+					Color palette
+					<a href="https://coolors.co/faa916-fbfffe-6d676e-1b1b1e-96031a" class="header-link" target="_blank">Inspiration link</a>
+				</h2>
+				<div class="row flex-wrap gap-5px40px justify-content--center">
+					<div class="column align-items--center">
+						<h5>Main Colors</h5>
+						<div class="row flex-wrap gap-10px">
+							<span class="color-block" style="--bg-color: var(--main-color); --font-color: var(--grey-0)">#FAA916</span>
+							<span class="color-block" style="--bg-color: var(--main-color-2); --font-color: var(--grey-0)">#FFBB3E</span>
+						</div>
+					</div>
+
+					<div class="column align-items--center">
+						<h5>Secondary Colors</h5>
+						<div class="row flex-wrap gap-10px">
+							<span class="color-block" style="--bg-color: var(--secondary-color); --font-color: var(--grey-100)">#73417B</span>
+							<span class="color-block" style="--bg-color: var(--secondary-color-2); --font-color: var(--grey-100)">#8E4F97</span>
+						</div>
+					</div>
+
+					<div class="column align-items--center">
+						<h5>Alert Colors</h5>
+						<div class="row flex-wrap gap-10px">
+							<span class="color-block" style="--bg-color: var(--alert-color); --font-color: var(--grey-100)">#96031A</span>
+							<span class="color-block" style="--bg-color: var(--alert-color-2); --font-color: var(--grey-100)">#C02139</span>
+						</div>
+					</div>
+
+					<div class="column align-items--center">
+						<h5>Grey Scale</h5>
+						<div class="row flex-wrap gap-10px justify-content--center">
+							<span class="color-block" style="--bg-color: var(--grey-0); --font-color: var(--grey-100)">#1B1B1B</span>
+							<span class="color-block" style="--bg-color: var(--grey-20); --font-color: var(--grey-100)">#484848</span>
+							<span class="color-block" style="--bg-color: var(--grey-40); --font-color: var(--grey-100)">#757575</span>
+							<span class="color-block" style="--bg-color: var(--grey-60); --font-color: var(--grey-0)">#A2A2A2</span>
+							<span class="color-block" style="--bg-color: var(--grey-80); --font-color: var(--grey-0)">#CFCFCF</span>
+							<span class="color-block" style="--bg-color: var(--grey-100); --font-color: var(--grey-0)">#FBFBFB</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Headers</h2>
+				<h1>H1 Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+				<h2>H2 Lorem ipsum dolor sit amet consectetur adipisicing</h2>
+				<h3>H3 Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+				<h4>H4 Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+				<h5>H5 Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+				<h6>H6 Lorem ipsum dolor sit amet consectetur adipisicing</h6>
+			</section>
+
+			<section>
+				<h2>Buttons</h2>
+				<div class="row gap-10px">
+					<button class="btn btn-main">Main Button</button>
+					<button class="btn btn-secondary">Secondary Button</button>
+					<button class="btn btn-alert">Alert Button</button>
+				</div>
+			</section>
+
+			<section>
+				<h2>Inputs</h2>
+				<div class="row gap-5px40px">
+					<div class="column">
+						<label for="input-main">Main Input</label>
+						<input type="text" class="inpt input-main" id="input-main" />
+					</div>
+					<div class="column">
+						<label for="input-secondary">Secondary Input</label>
+						<input type="text" class="inpt input-secondary" id="input-secondary" />
+					</div>
+					<div class="column">
+						<label for="input-error">Error/Alert Input (type email)</label>
+						<input type="email" class="inpt input-error" id="input-error" />
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
