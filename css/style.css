@@ -1,6 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
-
-:root {
+﻿:root {
 	--main-color: #faa916;
 	--main-color-2: #ffbb3e;
 	--secondary-color: #73417b;
@@ -77,7 +75,7 @@ h6,
 	background-color: var(--bg-color);
 	color: var(--font-color);
 	border-radius: 8px;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 button,
